@@ -13,48 +13,63 @@
         font-family: "Sono", sans-serif;
       }
 
-      * {
+      /* * {
         text-align: center;
-      }
+      } */
 
       .pricing-container {
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
         justify-content: center;
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         align-items: center;
-        gap:15px;
-        border-radius: 10px;
+        height: 100vh;
+        gap: 2rem;
         /* margin: auto; */
       }
 
       .pricing-plan {
-        margin: auto auto;
+        /* margin: auto auto; */
+        flex: 1;
+        padding: 20px;
+        max-width: 400px;
         background-color: rgb(231, 227, 227);
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 5px;
-        min-width: 300px;
-        min-height: 250px;
+        gap: 5px; */
+        border-radius: 10px;
+        text-align: center;
+        /* min-width: 300px;
+        min-height: 250px; */
       }
 
       .plan-title {
         font-weight: bold;
         font-size: 1rem;
+        margin-bottom: 10px;
       }
 
       .plan-price {
         font-weight: bold;
         font-size: 2rem;
+        margin-bottom: 10px;
       }
 
-      ul {
+      .plan-features {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      /* ul {
         font-weight: 0.5rem;
         gap: 5px;
-      }
-      li {
-        list-style-type: none;
+      } */
+
+      .plan-features li {
+        margin-bottom: 20px;
+        /* list-style-type: none; */
         /* margin-bottom: 5px; */
       }
 
@@ -62,16 +77,18 @@
         background-color: rgb(239, 125, 18);
         color: white;
         border-radius: 4px;
-        border: 0;
-        height: 25px;
+        border: none;
+        padding: 15px;
+        /* height: 25px;
         width: 75px;
-        margin: 0 auto;
+        margin: 0 auto; */
       }
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
         .pricing-container{
           flex-direction: column;
+          height: 100%;
         }
       }
     </style>
