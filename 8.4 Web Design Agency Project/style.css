@@ -1,0 +1,54 @@
+/* TODO:
+1. Style cho web
+2. style cho mobile */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  /* flex-direction: column;
+  min-height: 95vh; */
+}
+
+.main {
+  flex: 1;
+}
+
+.logo{
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+
+.card > img{
+  width: 400px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+.left{
+  display: inline-block;
+}
+
+/* img{
+  float:left;
+} */
+
+.right{
+  display: inline-block;
+}
+
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: left;
+  margin-top: 50px;
+}
+
