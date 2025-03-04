@@ -12,12 +12,13 @@
 <body>
 
   <!-- Title -->
-  <section id="title">
-    <div class="container col-xxl-8 ">
-      <div class="row flex-lg-row-reverse align-items-center g-5 gradient-background">
+  <section id="title"> 
+      <div class="row flex-lg-row-reverse align-items-center g-5 gradient-background px-4 pt-5">
+        
         <div class="col-10 col-sm-8 col-lg-6 pt-5">
           <img src="images/iphone.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
+
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Meet new and interesting dogs nearby.</h1>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
@@ -82,22 +83,24 @@
 
   <!-- Testimonial -->
   <section id="testimonial">
-    <h2 class="text-center mb-5">"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</h2>
-    <img  src="images/dog-img.jpg"  class="align-items-center" alt="dog-img" height="100px">
-    <p class="text-center mt-2">Pebbles, New York</p>
+    <div class="container text-center px-4 py-5">
+      <h2 class="mb-5">"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</h2>
+      <img  src="images/dog-img.jpg"  class="mxx-auto rounded-circle" alt="dog-img" height="100">
+      <p class="mt-2">Pebbles, New York</p>
+    </div>
 
     <div class="container text-center">
-      <div class="row">
-        <div class="col-3 p-3 col-sm-12"  height="30px">
+      <div class="row" height="30">
+        <div class="col-xl-3 p-3 col-sm-12 profile-img">
           <img src="images/techcrunch.png" alt="techcrunch-logo">
         </div>
-        <div class="col-3 p-3 col-sm-12"  height="30px">
+        <div class="col-xl-3 p-3 col-sm-12 profile-img">
           <img src="images/mashable.png" alt="mashable-logo">
         </div>
-        <div class="col-3 p-3 col-sm-12" height="30px">
+        <div class="col-xl-3 p-3 col-sm-12 profile-img">
           <img src="images/bizinsider.png" alt="bizinsider-logo">
         </div>
-        <div class="col-3 p-3 col-sm-12" height="30px">
+        <div class="col-xl-3 p-3 col-sm-12 profile-img">
           <img src="images/tnw.png" alt="tnw">
         </div>
       </div>
@@ -106,71 +109,70 @@
 
   <!-- Pricing -->
   <section id="pricing">
-    <div class="p-5 text-center bg-body-tertiary">
-      <div class="container py-5">
+
+    <div class="text-center bg-body-tertiary justify-content-center px-4 py-5">
         <h1 class="text-body-emphasis">A Plan for Every Dog's Needs</h1>
         <p class="col-lg-8 mx-auto lead">
           Simple and affordable price plans for you and your dog.
         </p>
-      </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Chihuahua</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>5 Matches Per Day</li>
-              <li>10 Messages Per Day/li>
-              <li>Unlimited App Usage</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Labrador</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Unlimited Matches</li>
-              <li>Unlimited Messages</li>
-              <li>Unlimited App Usage</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-dark">Get Started</button>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Chihuahua</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 Matches Per Day</li>
+                <li>10 Messages Per Day/li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm border-dark">
-          <div class="card-header py-3 text-bg-dark border-dark">
-            <h4 class="my-0 fw-normal">Mastiff</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Pirority Listing</li>
-              <li>Unlimited Matches & Messages</li>
-              <li>Unlimited App Usage</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Labrador</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Get Started</button>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-dark">
+            <div class="card-header py-3 text-bg-dark border-dark">
+              <h4 class="my-0 fw-normal">Mastiff</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Pirority Listing</li>
+                <li>Unlimited Matches & Messages</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+            </div>
+          </div>
+        </div>
     </div>
   </section>
 
   <!-- Footer -->
    <section> 
-    <div class="container">
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 gradient-background">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 gradient-background px-4 py-5">
         <div class="col mb-3">
           <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
@@ -215,7 +217,6 @@
           </ul>
         </div>
       </footer>
-    </div>
    </section>
 
   <!-- Bootstrap Script -->
